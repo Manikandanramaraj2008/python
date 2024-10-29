@@ -1,3 +1,32 @@
+# Python--
+# Offers range of  libraries and tools that make excellent data processing,
+# analysis,and visualization
+
+# Python--
+# Offers range of  libraries and tools that make excellent data processing,
+# analysis,and visualization
+
+# Jupyter
+
+# Browser based interpreter interactively work with python.
+
+# _ === use as output of previous operation
+
+# Notebook open source, web based applications single document contain 
+# Python code, output window, explanations, formula, charts. Powerful tool
+# Popular w/ data scientis and AI experts for data cleaning, manipulation,
+# Statistical modeling, machine learning, AI. Needed for developing and presenting 
+# AI models and projects. 
+
+# DATA Types
+#Text -- string  / character
+# Numeric--- integer / float / complex
+# Sequence --list , tuple , and range
+# Mapping -- dictionaries - dict
+# Set == set , frozenset
+# Boolean == bool
+# Binary == bytes, bytearray, memoryview
+
 # literal assignment
 
 first_name ="Arutperunjothi"
@@ -124,6 +153,7 @@ print(type(zip_value))
 
 a= input("did you attain immortality : \n") # the next line answer
 print(a)
+
 
 
 
