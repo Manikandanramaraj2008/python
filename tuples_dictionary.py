@@ -1,5 +1,6 @@
-# tuple single value inside the variable
-# different data types , cannot add or remove 
+# tuple collection of ordered and changeable data 
+# allows duplicate members. single value inside 
+# the variable # different data types , cannot add or remove 
 # values after creation. it is immutable.
 
 mytuple =tuple((2,4,6,8,True,"Hi"))
@@ -24,9 +25,8 @@ print(Hi) # return last element
 
 print(mytuple_1.count(6))
 
-# Dictionaries_ 
-# Key value pairs object / dictionaries
-# collection of data.{}
+# Dictionaries_  collection ordered data, changeable,
+# no duplicates # Key value pairs object / dictionaries
 
 car = dict(car="tesla", year ="2011")
 car_1 ={"car": "Nissan","year": "2011"}

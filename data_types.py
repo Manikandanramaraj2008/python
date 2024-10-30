@@ -2,10 +2,6 @@
 # Offers range of  libraries and tools that make excellent data processing,
 # analysis,and visualization
 
-# Python--
-# Offers range of  libraries and tools that make excellent data processing,
-# analysis,and visualization
-
 # Jupyter
 
 # Browser based interpreter interactively work with python.

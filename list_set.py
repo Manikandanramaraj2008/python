@@ -1,6 +1,7 @@
 print("Hello Python")
 
-#list _ collection of heterogeneous data arranged in 
+#list _ collection of ordered and changeable data,
+# allows duplicate members. heterogeneous data arranged in 
 # sequences. Eeach value of list is called element.
 # and its position referred by index. 
 # values can be added or deleted by codes. 
@@ -75,6 +76,55 @@ mynums=list(nums_1)
 print(mynums)
 
 print(type(nums_1))
+
+# set collection of unordered and uchangeable unindexed,
+#  no key values. can be updated by list,tuple
+# and dictionary. duplicates not allowed.
+
+num={1,2,3,4}
+num_1=set((3,4,6,7))
+
+print(num)
+print(num_1)
+print(len(num_1))  # find lenght of set
+print(type(num))   #find type of set
+
+nums={1,2,2,3,3,3,4,4} # duplicates will not printed in set
+print(nums)
+
+# True is duplicate of 1. False is duplicate of 0
+# set will print the first number of true /false value
+
+nums_1 = {True,1,2,False, 0,4}
+print(nums_1) # duplicate values 0,1 not printed.
+
+num_1.add(10)  # add any value to set
+print(num_1)
+
+# add values from another set duplicates eliminated
+nums_1.update(num)
+print(nums_1)
+num={1,2,3,4}
+num_1=set((3,4,6,7))
+
+# merge two sets to create new set
+mynewset= num.union(num_1)
+print(mynewset)
+
+#  intersection update printing duplicates
+num.intersection_update(num_1)
+print(num)
+#  printing symmetric values
+num.symmetric_difference_update(num_1)
+print(num)
+
+
+
+
+
+
+
+
 
 
 
